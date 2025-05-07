@@ -19,37 +19,37 @@ import { Code, Award, Boxes } from "lucide-react";
 // Hardcoded certificate data
 const HARDCODED_CERTIFICATES = [
   {
-    Img: "/certificates/c1.png",
+    Img: "/praveen-portfolio/certificates/c1.png",
     Title: "Introduction to Data Science",
     Issuer: "CISCO Network Academy",
     Date: "August 2024"
   },
   {
-    Img: "/certificates/c2.png",
+    Img: "/praveen-portfolio/certificates/c2.png",
     Title: "Web Development",
     Issuer: "University of Moratuwa",
     Date: "March 2024"
   },
   {
-    Img: "/certificates/c4.png",
+    Img: "/praveen-portfolio/certificates/c4.png",
     Title: "CCNA 200-300 Network",
     Issuer: "SimpliLearn",
     Date: "March 2024"
   },
   {
-    Img: "/certificates/c3.png",
+    Img: "/praveen-portfolio/certificates/c3.png",
     Title: "Python for Beginners",
     Issuer: "University of Moratuwa",
     Date: "October 2023"
   },
   {
-    Img: "/certificates/c6.png",
+    Img: "/praveen-portfolio/certificates/c6.png",
     Title: "Introduction to Data Science",
     Issuer: "CISCO Network Acadamy",
     Date: "August 2024"
   },
   {
-    Img: "/certificates/c5.png",
+    Img: "/praveen-portfolio/certificates/c5.png",
     Title: "Time Management",
     Issuer: "Great Learning Academy ",
     Date: "July 2022"
@@ -141,18 +141,18 @@ function a11yProps(index) {
 }
 
 const techStacks = [
-  { icon: "html.svg", language: "HTML" },
-  { icon: "css.svg", language: "CSS" },
-  { icon: "javascript.svg", language: "JavaScript" },
-  { icon: "tailwind.svg", language: "Tailwind CSS" },
-  { icon: "reactjs.svg", language: "ReactJS" },
-  { icon: "vite.svg", language: "Vite" },
-  { icon: "nodejs.svg", language: "Node JS" },
-  { icon: "bootstrap.svg", language: "Bootstrap" },
-  { icon: "firebase.svg", language: "Firebase" },
-  { icon: "MUI.svg", language: "Material UI" },
-  { icon: "vercel.svg", language: "Vercel" },
-  { icon: "SweetAlert.svg", language: "SweetAlert2" },
+  { icon: "/praveen-portfolio/html.svg", language: "HTML" },
+  { icon: "/praveen-portfolio/css.svg", language: "CSS" },
+  { icon: "/praveen-portfolio/javascript.svg", language: "JavaScript" },
+  { icon: "/praveen-portfolio/tailwind.svg", language: "Tailwind CSS" },
+  { icon: "/praveen-portfolio/reactjs.svg", language: "ReactJS" },
+  { icon: "/praveen-portfolio/vite.svg", language: "Vite" },
+  { icon: "/praveen-portfolio/nodejs.svg", language: "Node JS" },
+  { icon: "/praveen-portfolio/bootstrap.svg", language: "Bootstrap" },
+  { icon: "/praveen-portfolio/firebase.svg", language: "Firebase" },
+  { icon: "/praveen-portfolio/MUI.svg", language: "Material UI" },
+  { icon: "/praveen-portfolio/vercel.svg", language: "Vercel" },
+  { icon: "/praveen-portfolio/SweetAlert.svg", language: "SweetAlert2" },
 ];
 
 export default function FullWidthTabs() {
